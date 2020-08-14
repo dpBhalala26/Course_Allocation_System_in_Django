@@ -1,0 +1,47 @@
+
+
+Student 1 : Jaap B. Anjaria	CE004
+Student 2 : Devang P. Bhalala	CE008
+
+---------------------------------------------------------------------------
+
+Project Title : Departmental Course Allocation System
+
+---------------------------------------------------------------------------
+
+Python Version Used : 3.7.5
+Django Version Used : 3.0.3
+
+asgiref==3.2.3
+django==3.0.3
+django-multiforloop==0.2.1
+pytz==2019.3
+sqlparse==0.3.0
+virtualenv==16.7.9
+virtualenvwrapper==1.2.5
+
+----------------------------------------------------------------------------
+
+:::: LIST OF REQUIREMENTS IMPLEMENTED ::::
+
+1. A login module for the users which authenticates the user.
+   It identifies whether the user is the HOD or normal faculty and redirects the user.
+    
+2. The HOD can add and remove the faculty from the faculty list of the department.
+   All the faculties from this list would be allowed to participate in choice filling round.
+    
+3. The HOD can add and remove the courses from the course list of the department.
+   The course list would be differentiated by the semesters.
+    
+4. All the faculties from the department would fill up a form of choice filling.
+   They would give their priorities of interest in teaching the course.
+   There would be five priorities to fill.
+    
+5. The HOD would be able to allocate the courses only after every faculty has filled up their forms.
+   In the allocation process, with every faculty's name, his\her priorities would be shown to HOD.
+   HOD must be able to allocate any course to the faculty irrespective to his\her priorities.
+    
+6. All the faculties and HOD can view the final allocation list after the allocation is completed.
+
+
+	
